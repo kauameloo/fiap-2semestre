@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class ListTest {
     public static void main(String[] args) {
         //// List é uma interface
         // List compras;
@@ -58,6 +58,7 @@ public class Main {
         //// Criar uma sublista dos dois primeiros itens da lista
         List<String> subLista = compras.subList(0, 2);
         System.out.println(subLista);
+
         //// Percorrer a lista e exibir o item da lista
         for (String item : compras) {
             System.out.println(item);
